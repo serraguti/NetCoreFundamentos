@@ -15,6 +15,11 @@ namespace NetCoreFundamentos
             this.txtNombre.Text = "Soy un texto nuevo!!!";
             this.txtNombre.Width = 220;
             this.txtNombre.BackColor = Color.Fuchsia;
+            //CONVERTIR A STRING
+            int mayor = 88;
+            short pequeño = (short) mayor;
+            string dato = pequeño.ToString();
+            dato = this.btnPulsar.ToString();
         }
     }
 }
