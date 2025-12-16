@@ -66,6 +66,7 @@
             btnGenerarNumeros.TabIndex = 2;
             btnGenerarNumeros.Text = "Generar números";
             btnGenerarNumeros.UseVisualStyleBackColor = true;
+            btnGenerarNumeros.Click += btnGenerarNumeros_Click;
             // 
             // btnMostrarDatos
             // 
@@ -75,6 +76,7 @@
             btnMostrarDatos.TabIndex = 3;
             btnMostrarDatos.Text = "Mostrar datos";
             btnMostrarDatos.UseVisualStyleBackColor = true;
+            btnMostrarDatos.Click += btnMostrarDatos_Click;
             // 
             // label2
             // 
